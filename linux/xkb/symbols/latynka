@@ -1,0 +1,77 @@
+// Witalij Berdinskich <radio_rogal@keemail.me>
+
+default partial alphanumeric_keys
+xkb_symbols "latynka" {
+
+    // Based on latynka of Maxym Prudeus, see https://cutt.ly/latynka
+
+    include "us"
+
+    name[Group1]= "Ukrainian (latynka)";
+
+    key <TLDE>  {[  apostrophe,  asciitilde,              grave                      ]}; // ' ~ `
+    key <AE03>	{[    NoSymbol,  numerosign,         numbersign,             section ]}; // № # §
+    key <AE04>	{[    NoSymbol,       U20B4,             dollar,            sterling ]}; // ₴ $ £
+    key <AE05>  {[    NoSymbol,    NoSymbol,           NoSymbol,              degree ]}; // € °
+    key <AE11>  {[    NoSymbol,    NoSymbol,             endash,              emdash ]}; // – —
+    key <AE12>  {[    NoSymbol,    NoSymbol,           notequal,           plusminus ]}; // ≠ ±
+    key <AD01>	{[ gcircumflex, Gcircumflex,                  q,                   Q ]}; // ĝ Ĝ q Q
+    key <AD02>	{[      scaron,      Scaron,                  w,                   W ]}; // š Š w W
+    key <AD04>  {[    NoSymbol,    NoSymbol,         registered,               U20B9 ]}; // ® ₹
+    key <AD05>  {[    NoSymbol,    NoSymbol,          trademark                      ]}; // ™
+    key <AD06>  {[    NoSymbol,    NoSymbol,                yen                      ]}; // ¥
+    key <AC09>  {[    NoSymbol,    NoSymbol,              U20BA,               U20AA ]}; // ₺ ₪
+    key <AC10>	{[      ccaron,      Ccaron                                          ]}; // č Č
+    key <AC11>	{[    NoSymbol,    NoSymbol, doublelowquotemark, leftdoublequotemark ]}; // „ “
+    key <AB02>	{[      zcaron,      Zcaron,                  x,                   X ]}; // ž Ž x X
+    key <AB03>  {[    NoSymbol,    NoSymbol,          copyright,            currency ]}; // © ¤
+    key <AB08>	{[    NoSymbol,   semicolon,      guillemotleft,                less ]}; // ; « <
+    key <AB09>	{[    NoSymbol,       colon,     guillemotright,             greater ]}; // : » >
+    key <AB10>  {[    NoSymbol,    NoSymbol,           ellipsis                      ]}; // …
+    key <SPCE>	{[       space,       space,       nobreakspace,        nobreakspace ]};
+
+    include "kpdl(comma)"
+
+    include "eurosign(5)"
+
+    include "eurosign(e)"
+
+    include "level3(ralt_switch)"
+
+};
+
+partial alphanumeric_keys
+xkb_symbols "coder" {
+
+    // Programmer keyboard. Based on the US layout with accented Ukrainian letters.
+
+    include "us"
+
+    name[Group1]= "Ukrainian (latynka, coder)";
+
+    key <AE03>	{[ NoSymbol, NoSymbol,         numerosign,             section ]}; // № §
+    key <AE04>	{[ NoSymbol, NoSymbol,              U20B4,            sterling ]}; // ₴ £
+    key <AE05>  {[ NoSymbol, NoSymbol,           NoSymbol,              degree ]}; // € °
+    key <AE11>  {[ NoSymbol, NoSymbol,             endash,              emdash ]}; // – —
+    key <AD04>  {[ NoSymbol, NoSymbol,              U20B9                      ]}; // ₹
+    key <AC02>	{[ NoSymbol, NoSymbol,             scaron,              Scaron ]}; // š Š
+    key <AC05>	{[ NoSymbol, NoSymbol,        gcircumflex,         Gcircumflex ]}; // ĝ Ĝ
+    key <AD06>  {[ NoSymbol, NoSymbol,                yen                      ]}; // ¥
+    key <AC09>  {[ NoSymbol, NoSymbol,              U20BA,               U20AA ]}; // ₺ ₪
+    key <AC11>  {[ NoSymbol, NoSymbol, doublelowquotemark, leftdoublequotemark ]}; // „ “
+    key <AB01>	{[ NoSymbol, NoSymbol,             zcaron,              Zcaron ]}; // ž Ž
+    key <AB03>	{[ NoSymbol, NoSymbol,             ccaron,              Ccaron ]}; // č Č
+    key <AB08>  {[ NoSymbol, NoSymbol,      guillemotleft                      ]}; // «
+    key <AB09>  {[ NoSymbol, NoSymbol,     guillemotright                      ]}; // »
+    key <AB10>  {[ NoSymbol, NoSymbol,           ellipsis                      ]}; // …
+    key <SPCE>  {[    space,    space,       nobreakspace,        nobreakspace ]};
+
+    include "kpdl(dot)"
+
+    include "eurosign(5)"
+
+    include "eurosign(e)"
+
+    include "level3(ralt_switch)"
+
+};
