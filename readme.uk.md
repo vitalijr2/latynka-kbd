@@ -1,12 +1,12 @@
-# The Ukrainian Latin keyboard
+# Клавіатура для української латинки
 
-This is a keyboard to implement the Ukrainian Latin alphabet.
+Це клавіатура для використання української латиниці.
 
 [![English](https://img.shields.io/badge/%F0%9F%93%84-English-blue)](readme.md)
 [![Українська](https://img.shields.io/badge/%F0%9F%93%84-%D0%A3%D0%BA%D1%80%D0%B0%D1%97%D0%BD%D1%81%D1%8C%D0%BA%D0%BE%D1%8E-blue)](readme.uk.md)
 [![Latynka](https://img.shields.io/badge/%F0%9F%93%84-Latynka-blue)](readme.uk@latynka.md)
 
-First and default keymap is proposed by Maxym Prudeus, further watch in [Ukrainian Latynka (Latin alphabet): all the "pros" and "cons"][latynka].
+Першу розкладку запропоновано Максимом Прудеусом, дивіться в [Українська латинка (латинський алфавіт): усі «за» і «проти»][latynka]. Вона ж є розкладкою за замовченням.
 
 ```
 ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
@@ -27,7 +27,7 @@ First and default keymap is proposed by Maxym Prudeus, further watch in [Ukraini
 ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
 ```
 
-Second keymap is based on `us` with accented Ukrainian letters. This keymap is named `coder` and suitable for programmers.
+Друга розкладка заснована на `us` з додаванням українських літерами з акцентами. Ця розкладка клавіш називається `coder` і підходить для програмістів.
 
 ```
 ┌─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┬─────┲━━━━━━━━━┓
@@ -48,27 +48,27 @@ Second keymap is based on `us` with accented Ukrainian letters. This keymap is n
 ┗━━━━━━━┻━━━━━━━┻━━━━━━━┹───────────────────────────────────┺━━━━━━━┻━━━━━━━┻━━━━━━━┛
 ```
 
-## Installation
+## Встановлення
 
 ### Arch/Manjaro Linux
 
-To install from **AUR** run
+Для встановлення з **AUR** виконайте
 
 ```bash
 paru -S latynka-kbd
 ```
 
-or use your favorite helper with the [latynka-kbd][latynka-kbd-aur] package.
+або використовуйте ваш улюблений помічник з пакетом [latynka-kbd][latynka-kbd-aur].
 
 ### macOS
 
 TODO: Describe the installation process
 
-## Usage
+## Використання
 
-The `latynka-kbd` is not a part of [xkeyboard-config][]: you cannot use `localectl`. But you can use `setxkbmap` or configure it manually.
+Проект `latynka-kbd` не є частиною [xkeyboard-config][]: ви не зможете використати `localectl`. Але ви можете використовувати `setxkbmap` чи сконнфігурувати це вручну.
 
-Some examples:
+Деякі приклади:
 
 ### Sway
 
@@ -81,19 +81,15 @@ input * {
 }
 ```
 
-## Contributing
+## Ваш внесок
 
-Please read [Contributing](contributing.md) for details on our code of conduct, and the process for submitting pull requests to us.
+Будь ласка прочитайте [Contributing](contributing.md) про деталі процесу подання нам запитів на зміни.
 
-## History
+## Історія змін
 
-See [ChangeLog](changelog.md)
+Дивіться [ChangeLog](changelog.md)
 
-## Credits
-
-TODO: Write credits
-
-## License
+## Ліцензія
 
 [Apache License v2.0](LICENSE)  
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat)](http://www.apache.org/licenses/LICENSE-2.0.html)
