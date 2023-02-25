@@ -89,6 +89,10 @@ input * {
 
 Дивіться [ChangeLog](changelog.md)
 
+## Подяка
+
+Розкладки клавіатури були створені за мотивами [LatynkaUA Дмитра Степанюка][latynka-ua-bundle]
+
 ## Ліцензія
 
 [Apache License v2.0](LICENSE)  
@@ -97,3 +101,4 @@ input * {
 [latynka]: https://cutt.ly/latynka "Українська латинка: усі \"за\" та \"проти\" | Кирилиця чи латиниця | Абетка та розкладка клавіатури"
 [latynka-kbd-aur]: https://aur.archlinux.org/packages/latynka-kbd
 [xkeyboard-config]: https://github.com/freedesktop/xkeyboard-config "X Keyboard Extension"
+[latynka-ua-bundle]: https://github.com/DmytroStepaniuk/LatynkaUA.bundle

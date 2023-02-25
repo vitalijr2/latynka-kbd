@@ -91,7 +91,7 @@ See [ChangeLog](changelog.md)
 
 ## Credits
 
-TODO: Write credits
+The keymaps were inspired by [Dmytro Stepaniuk's LatynkaUA][latynka-ua-bundle].
 
 ## License
 
@@ -101,3 +101,4 @@ TODO: Write credits
 [latynka]: https://cutt.ly/latynka "Українська латинка: усі \"за\" та \"проти\" | Кирилиця чи латиниця | Абетка та розкладка клавіатури"
 [latynka-kbd-aur]: https://aur.archlinux.org/packages/latynka-kbd
 [xkeyboard-config]: https://github.com/freedesktop/xkeyboard-config "X Keyboard Extension"
+[latynka-ua-bundle]: https://github.com/DmytroStepaniuk/LatynkaUA.bundle

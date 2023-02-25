@@ -66,6 +66,10 @@ Bud' laska pročytajte [Contributing](contributing.md) pro detali procesu podann
 
 Dyvit'sja [ChangeLog](changelog.md)
 
+## Podjaka
+
+Rozkladky klaviatury buly stvoreni za motyvamy [LatynkaUA Dmytra Stepanjuka][latynka-ua-bundle]
+
 ## Licenzija
 
 [Apache License v2.0](LICENSE)  
@@ -74,3 +78,4 @@ Dyvit'sja [ChangeLog](changelog.md)
 [latynka]: https://cutt.ly/latynka "Українська латинка: усі \"за\" та \"проти\" | Кирилиця чи латиниця | Абетка та розкладка клавіатури"
 [latynka-kbd-aur]: https://aur.archlinux.org/packages/latynka-kbd
 [xkeyboard-config]: https://github.com/freedesktop/xkeyboard-config "X Keyboard Extension"
+[latynka-ua-bundle]: https://github.com/DmytroStepaniuk/LatynkaUA.bundle
