@@ -1,4 +1,4 @@
-// Witalij Berdinskich <radio_rogal@keemail.me>
+// Vitalij Berdinskih <vitalij_r2@outlook.com>
 
 default partial alphanumeric_keys
 xkb_symbols "latynka" {
